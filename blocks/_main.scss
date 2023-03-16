@@ -1,0 +1,91 @@
+body {
+  background-image: url("../imagenes/9K7dtM.jpef.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+}
+.input {
+  font-size: 200px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+input {
+  text-align: center;
+  font-size: 40px;
+  border-radius: 21%;
+  background-color: transparent;
+  color: antiquewhite;
+}
+::placeholder{
+  color:whitesmoke;
+}
+
+.cart {
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: center;
+  display: flex;
+  //border: 2px solid black;
+  height: 350px;
+  width: 250px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6%;
+  background-color: #888677;
+  background-image: url("../imagenes/pokemon_tarjeta.jpg");
+  background-size: cover;
+}
+
+.cart:hover {
+  transform: translate(20px, -10px);
+  box-shadow: 0 20px 20px rgba(240, 13, 13, 0.964);
+  transition: transform 0.4s ease;
+}
+
+p {
+  font-size: 25px;
+  color: red;
+}
+.tipos {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+}
+
+img {
+  width: 170px;
+  margin-bottom: 38%;
+}
+
+.cartaName {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 100px;
+  color: aquamarine;
+}
+.next {
+  width: 200px;
+  height: 150;
+  border-radius: 15px 15px 0px 15px;
+}
+.prev {
+  width: 200px;
+  height: 150;
+  border-radius: 15px 15px 0px 15px;
+}
